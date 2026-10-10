@@ -1,5 +1,7 @@
 # Waste Collection Route Optimiser (SDG 11 + SDG 12)
 
+[![tests](https://github.com/Bak-AbasiUdoessien/sdg-waste-route-optimiser/actions/workflows/tests.yml/badge.svg)](https://github.com/Bak-AbasiUdoessien/sdg-waste-route-optimiser/actions/workflows/tests.yml)
+
 Most collection trucks drive the same fixed round every day, stopping at half-empty bins and burning diesel. This project plans a smarter day. Using bin fill levels (as smart-bin sensors would report them), it:
 1. picks only the bins that are **full enough** to be worth emptying,
 2. orders them into a short route using **nearest-neighbour + 2-opt**,
